@@ -1,0 +1,116 @@
+bali
+{
+    background-color: lavender;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+baliheader
+{
+    padding-top: 10%;
+    padding-left: 32%;
+    display: block;
+    width: 100%;
+    height: 400px;;
+    background-image:url("baliheader.jpg") ;
+}
+baliheader>p
+{
+    border: 5px solid white;
+    color: white;
+    width: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5em;
+}
+balimain
+{
+    min-height:10px ;
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    width:80%;
+    margin-left: 10%;
+    background-color: aqua;
+}
+balimain1
+{
+    height: auto;
+    background-color: wheat;
+    padding: 20px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+balimain1>h2
+{
+    color: #e65c00;
+    display: inline-block;
+    border-bottom: 3px solid aqua;
+}
+balimain1>p
+{
+    color: clack;
+    font-size: 1.7em;
+}
+balimain2>p, balimain5>p, balimain6>p
+{
+    width: 200px;
+    padding: 2%;
+    border: 3px solid white;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+balimain2
+{
+    padding-top: 90px;
+    background-size: 100% 100%;
+    background-image: url("baliclimate.jpg");
+    grid-column: 1/2;
+    grid-row: 2/3; 
+}
+balimain3
+{
+    background-color: #fc4445;
+    grid-column: 2/4;
+    grid-row: 2/3; 
+}
+balimain3>p, balimain4>p, balimain7>p
+{
+    color: white;
+    padding: 35px;
+    display: inline-block;
+    font-size: 1.3em;
+}
+balimain4
+{
+    background-color: #f64c72;
+    grid-column: 1/3;
+    grid-row: 3/4; 
+}
+balimain5
+{
+    padding-top: 70px;
+    background-size: 100% 100%;
+    background-image: url("balipeople.jpg");
+    grid-column: 3/4;
+    grid-row: 3/4; 
+}
+balimain6
+{
+    padding-top: 60px;
+    background-size: 100% 100%;
+    background-image: url("balihistory.jpg");
+    grid-column: 1/2;
+    grid-row: 4/5; 
+}
+balimain7
+{
+    background-color: #fc4445;
+    grid-column: 2/4;
+    grid-row: 4/5; 
+}
+

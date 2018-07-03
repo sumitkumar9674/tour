@@ -1,0 +1,33 @@
+@media screen and (max-width: 750px)
+{
+    contact
+    {
+        width:100%;
+    }
+    .cf1>p
+    {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 250px;
+        border-bottom: 3px solid orangered;
+        font-size: 2.5em;
+    }
+
+    contactform
+    {
+        width: 100%;
+    }
+    .cf2
+    {
+        grid-template-columns: 100%;
+    }
+    .form4
+    {
+        grid-column: 1/2;
+    }
+    .form5
+    {
+        grid-column: 1/2;
+    }
+}

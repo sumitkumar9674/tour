@@ -1,0 +1,100 @@
+@media screen and (max-width:800px)
+{
+    .events
+    {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    .main22a>h3, .main22d>h3 ,.main22e>h3, .main66a>h3, .main66d>h3 ,.main66e>h3, .main44b>h3, .main88b>h3, .main100b>h3, .main122b>h3, .main144b>h3
+    {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .day
+    {
+        padding-top: 10px;
+        width:40%;
+        height: 100%;
+    }
+    .day>h1
+    {
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    .daycontext
+    {
+        padding-top: 20px;
+        width: 60%;
+    }
+    .daycontext>h1
+    {
+        font-size: 1.5em!important;
+        font-weight: 400;
+        color: black;
+        margin: 0 auto;
+        display:block;
+        text-align: center;
+    }
+    .mainlayout
+    {
+        height:60px;
+    }
+    .main22
+    {
+        height: 1200px;
+        transition: 0.5 ease-in-out;
+    }
+    .main66
+    {
+        height: 1200px;
+        transition: 0.5 ease-in-out;
+    }
+
+    .main22, .main66
+    {
+        display: grid;
+        grid-auto-rows: minmax(0,auto);
+        grid-template-columns: 100%;
+    }
+    .main22a, .main66a
+    {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        grid-column: 1/2;   
+        grid-row: 2/3;
+    }
+    .main22b, .main66b
+    {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .main22c, .main66c
+    {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .main22d, .main66d
+    {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .main22e, .main66e
+    {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .main22f, .main66f
+    {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+ 
+}

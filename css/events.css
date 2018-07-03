@@ -1,0 +1,274 @@
+.body2
+{
+    background-color: lavender;
+    max-height: 3000px;
+    width: 100%;
+}
+eventsheader
+{
+    width: 100%;
+}
+eventsheader>img
+{
+    width: 100%;
+}
+.sls
+{
+    max-height: 0!important;
+    overflow: hidden;
+    transition: 2s  ease-in-out;
+}
+.events
+{
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 38% 24% 38%;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    left: 20%;
+    right: 20%;
+    background-color: lavender;
+}
+.day
+{
+    
+    float: left;
+    padding-top: 30px;
+    display: block;
+    width:20%;
+    height: 100%;
+    background: linear-gradient(to right, #ed213a, #93291e);
+}
+.day>h1
+{
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+}
+.daycontext
+{
+    float: right;
+    padding-top: 30px;
+    display: block;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+.daycontext>h1
+{
+    font-weight: 400;
+    color: black;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+}
+.gap
+{
+    grid-column: 1/4;
+    height: 10px;
+}
+.mainlayout
+{
+    box-shadow:  3px 3px 10px black;
+    height: 100px;
+}
+
+.main11
+{
+    grid-column: 1/4;
+}
+.main22
+{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.main22, .main66
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 38% 24% 38%;
+    grid-auto-rows: minmax(auto,50px);
+    transition: 0.5s  ease-in-out;
+}
+.main55
+{
+    grid-column: 1/4;
+    grid-row: 9/10;
+}
+.main66
+{
+
+    grid-column: 1/4;
+    grid-row: 11/12;
+}
+.main22a>h3, .main22d>h3 ,.main22e>h3, .main66a>h3, .main66d>h3 ,.main66e>h3, .main44b>h3, .main88b>h3, .main100b>h3, .main122b>h3, .main144b>h3
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+}
+.main22b>img, .main22c>img, .main22f>img, .main66b>img, .main66c>img, .main66f>img
+{
+    width: 100%;
+    height: 100%;
+}
+.main22a, .main66a
+{
+    padding-top: 50px;
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+.main22b, .main66b
+{
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+
+.main22c, .main66c
+{
+    grid-column: 1/2;
+    grid-row: 5/9;
+}
+.main22d, .main66d
+{
+    background-color: wheat;
+    grid-column: 2/4;
+    grid-row: 5/9;
+}
+.main22d
+{
+    padding-top: 80px;
+}
+.main66d
+{
+    padding-top: 20px;
+}
+
+.main22e, .main66e
+{
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 9/13;
+}
+.main22e
+{
+    padding-top: 80px;
+}
+.main66e
+{
+    padding-top: 20px;
+}
+.main22f, .main66f
+{
+    grid-column: 3/4;
+    grid-row: 9/13;
+}
+
+
+.main33
+{
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+.main44
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row:7/8;
+}
+.main44a, .main88a, .main100a
+{
+    overflow: hidden;
+}
+.main44a>img 
+{
+    width: 100%;
+    padding-top: -20%;
+}
+.main44b, .main88b, .main100b, .main122b, .main144b
+{
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.main77
+{
+    grid-column: 1/4;
+    grid-row: 13/14;
+}
+.main88
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row: 15/16;
+}
+
+.main88a>img, .main100a>img, .main122a>img, .main144a>img, .main166a>img 
+{
+    width: 100%;
+}
+.main99
+{
+    grid-column: 1/4;
+    grid-row: 17/18;
+}
+.main100
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row: 19/20;
+}
+.main111
+{
+    grid-column: 1/4;
+    grid-row: 21/22;
+}
+.main122
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row: 23/24;
+}
+.main133
+{
+    grid-column: 1/4;
+    grid-row: 25/26;
+}
+.main144
+{
+    transition: .5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row: 27/28;
+}
+.main155
+{
+    grid-column: 1/4;
+    grid-row: 29/30;
+}
+.main166
+{
+    transition: 0.5s max-height  ease-in-out;
+    max-height: 1000px;
+    overflow: hidden;
+    grid-column: 1/4;
+    grid-row: 31/32;
+}
